@@ -135,7 +135,7 @@ struct MessageInputView: View {
         VStack {
             ZStack(alignment: .leading) {
                 if userInput.isEmpty {
-                    Text("Задай вопрос")
+                    Text("   Задай вопрос")
                         .foregroundColor(.black)
                         .padding(.leading, 10)
                 }
